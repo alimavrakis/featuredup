@@ -9,7 +9,7 @@
  */
 
 angular.module('featuredupApp').controller('ListCtrl', function($scope) {
-    $scope.features = [
+    $scope.projects = [
         {'title': 'feat1',
          'snippet': 'snippet for feat1'
         },

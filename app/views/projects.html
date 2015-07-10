@@ -1,14 +1,15 @@
+
 <div class="jumbotron projects-header">
 <h1>Projects</h1>
   <h3>Check out the feature lists for these projects...</h3>
 </div>
 
-<div class="list-box" ng-controller="ListCtrl">
+<div class="list-box" ng-controller="ProjectsCtrl">
 <h2>Projects List</h2>
   <ul>
-    <li ng-repeat="feature in features">
-      <span>{{feature.title}}</span>
-      <p>{{feature.snippet}}</p>
+    <li ng-repeat="project in projects">
+      <span>{{project.title}}</span>
+      <p>{{project.snippet}}</p>
     </li>
   </ul>
 </div>
