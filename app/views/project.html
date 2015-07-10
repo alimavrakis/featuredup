@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h1>Project</h1>
+  <h3>Description of the project</h3>
+</div>
+
+<div class="listBox" ng-controller="ListCtrl">
+<h2> Feature List</h2>
+  <ul>
+    <li ng-repeat="feature in features">
+      <span>{{feature.title}}</span>
+      <p>{{feature.snippet}}</p>
+    </li>
+  </ul>
+</div>
+ 
