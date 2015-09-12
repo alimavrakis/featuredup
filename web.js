@@ -4,5 +4,5 @@ var morgan = require('morgan');
 var app = express();
 
 app.use(morgan('dev'));
-app.use(gzippo.staticGzip("" + "/home/ali/docs/featuredup" + "/dist"));
+app.use(gzippo.staticGzip("" + "featuredup" + "/dist"));
 app.listen(process.env.PORT || 5000);
